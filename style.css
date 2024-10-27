@@ -1,0 +1,25 @@
+body{
+    background:linear-gradient(
+        to top,
+        lightblue 30% ,
+        lightgrey
+    );
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: monospace;
+    white-space: pre;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-size: 30pt;
+    transition: all 0.8s;
+}
+
+.top{
+    color: gold;
+    font-size: 50pt;
+    font-weight: bold;
+}
+
